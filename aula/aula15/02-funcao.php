@@ -5,16 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
-        <?php 
-            $n1 = 3;
-            $n2 = 2;
-            $s = $n1 + $n2;
-            echo "A soma entre $n1 e $n2 e igual a $s" ;   
-        ?>
-    </div>
+    <?php
+        include "funcoes.php";
+        echo "<h1>Testando as funcoes</h1>";
+        ola();
+        valor(4);
+        echo "<h2>Finalizando .....</h2>"
+    ?>
 </body>
 </html>

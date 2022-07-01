@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Funcoes Aritmeticas em PHP</title>
+    <link rel="stylesheet" href="style.css"> 
     <style>
         h2{
             font: 15pt Arial;

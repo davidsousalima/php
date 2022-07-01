@@ -8,13 +8,17 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
-        <?php 
-            $n1 = 3;
-            $n2 = 2;
-            $s = $n1 + $n2;
-            echo "A soma entre $n1 e $n2 e igual a $s" ;   
-        ?>
-    </div>
+   <?php
+    $c = isset($_GET["val"])?$_GET["val"]:1;
+    echo "<h1>Calculando  o fatorial  de $c</h1>";
+    $v = $c;
+    $fat = 1;
+    do{
+        $fat = $fat* $v;
+        $v--; 
+    }while($v >=1);
+    echo "<h2>$c ! = $fat</h2>"
+   ?> 
+   <a href="fatorial.html" class="botao">Volta<a>
 </body>
 </html>
